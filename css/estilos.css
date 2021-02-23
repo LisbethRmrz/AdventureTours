@@ -1,0 +1,116 @@
+html,body{
+    height: 100%;
+}
+
+img
+{
+    max-width: 100%;
+}
+img.mediana/*Imagen de portada*/
+{
+   display:block;
+margin:auto;
+}
+
+.empresa
+{
+    max-width: 100%;
+    margin-left: 2%;
+    
+  
+}
+
+footer
+{
+  
+    background-color: black;
+}
+
+img.logo
+{
+    max-width: 12%;
+    max-height: 15%;
+    margin-left: 90%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+p.foot
+{
+    margin-top: 5%;
+    color: rgb(241, 241, 239);
+    font-size: 10pt;
+}
+
+/*Agenda*/
+
+img.portada
+{
+    height: 50%;
+    width: 100%;
+    
+}
+
+/*Solicitud*/
+
+form.solicitud
+{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#titulo
+{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button
+{
+    margin-left: 50%;
+}
+
+aside
+{
+max-width: 25%;
+float: left;
+}
+
+.nombre
+{
+    margin-left: 2%;
+}
+
+
+#caja
+{
+    max-width: 100%;
+  
+}
+
+h4.subtitulo
+{
+    margin-left: 5%;
+}
+
+p#linea
+{
+  text-align: justify;
+}
+
+section.empresa
+{
+    margin-left: 27%;
+
+
+}
+
+.sitios
+{
+    font-size: 200%;
+    font-family: fantasy;
+    text-align: center;
+}
+

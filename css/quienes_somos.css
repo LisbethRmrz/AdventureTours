@@ -1,0 +1,261 @@
+html,body{
+    height: 100%;
+}
+
+/* apariencia principal*/
+.contenido{margin:0; padding:0; font-size:13px; font-family:Arial, Helvetica, sans-serif; color:#919191; background-color:white;}
+
+
+
+
+/*img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+*/
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+/*address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'� '; font-size:26px;}
+q:after{content:' �'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+/*FF9900   color de las opciones*/
+
+/*cuadro para poner la misión y visión*/
+
+
+#lateral{ 
+	/*margin: 122px;*/
+	margin-right: 8%;
+	/*width:300px;
+	height: 100px;*/
+	float: right;
+	width: 21%;
+	height: 100%;
+  /*background-color: #999999; */
+   
+} 
+
+#principal{ 
+  /*margin: 122px;*/ 
+ margin-left: 8%;
+   /*width:740px;
+   height: 1860px;*/
+   width: 58%;
+   /*background-color: #ffffff; */
+   height: 100%;
+
+   text-align: justify;
+}
+
+.contenedor:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;}
+
+.tamano_video{
+	/*width="700" height="400" */
+	width:93%;
+	height:75%;
+
+}
+
+
+
+.tablauno{
+	 margin-right: 122px;
+	 margin-left: 122px;
+	 text-align: justify;
+}
+
+.tablados{
+margin-right: 122px;
+	 margin-left: 122px;
+	 text-align: center;
+}
+
+.valores_b{
+	border-color: #FFFFFF; border-width:1px; 
+}
+.grid_princ{
+	display: grid;
+	 margin-right: 122px;
+	 margin-left: 122px;
+	 text-align: justify;
+	 /*numero de filas*/grid-template-columns:  555px 600px;
+	 /*número de columnas*/grid-template-rows: 50px 300px;
+
+}
+
+.grid {
+	 display: grid;
+	 margin-right: 122px;
+	 margin-left: 122px;
+	 /*numero de filas*/grid-template-columns:  555px 555px;
+	 /*número de columnas*/grid-template-rows: 70px 70px;
+	}
+
+.grid2 {
+	 display: grid;
+	 margin-right: 122px;
+	 margin-left: 122px;
+	 /*numero de filas*/grid-template-columns:  555px 555px;
+	 /*número de columnas*/grid-template-rows: 70px 108px;
+	}
+
+	li{
+		float: center;
+	}
+
+	h1{
+		text-align: center;
+		font-family: fantasy;
+		text-decoration: bold;
+		font-size: 30px;
+		color: #5CCCAC;
+	}
+
+h2{
+	text-align: justify;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+hr{
+	margin-right: 122px;
+	margin-left: 122px;
+}
+
+p{
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+h6{
+	color:#464647;
+}
+/*.tamano_img{
+	width: 400px;
+	height:300px;
+}
+#columna1{
+    width: 630px;
+    padding: 0 0.5px;
+    background-color: red;
+}
+
+#columna2{
+    width: 630px;
+    padding: 0 0.5px;
+    background-color: blue;
+}
+
+
+html,body{
+    height: 100%;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+#tamañosection
+{
+max-width: 100%;
+}
+
+footer
+{
+    margin-top: 10%;
+    background-color: black;
+}
+
+img.logo
+{
+    max-width: 8%;
+    max-height: 15%;
+    margin-left: 90%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+p.foot
+{
+    margin-top: 5%;
+    color: rgb(241, 241, 239);
+    font-size: 10pt;
+}
+
+/*Agenda*/
+
+
+img
+{
+    max-width: 100%;
+}
+img.mediana/*Imagen de portada*/
+{
+   display:block;
+margin:auto;
+}
+#tamañosection
+{
+max-width: 100%;
+}
+
+footer
+{
+    margin-top: 10%;
+    background-color: black;
+}
+
+img.logo
+{
+    max-width: 8%;
+    max-height: 15%;
+    margin-left: 90%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+p.foot
+{
+    margin-top: 5%;
+    color: rgb(241, 241, 239);
+    font-size: 10pt;
+}
+
+/*Agenda*/
+
+img.portada
+{
+    height: 50%;
+    width: 100%;
+    
+}
+
+/*Solicitud*/
+
+form.solicitud
+{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#titulo
+{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button
+{
+    margin-left: 50%;
+}
